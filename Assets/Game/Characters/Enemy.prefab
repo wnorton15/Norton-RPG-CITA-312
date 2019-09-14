@@ -26,6 +26,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 850b1bee816452d48a0d7973ebfa1f34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6309608756753414535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8024703808437302987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b72f05baccf4b4b95bf8ca47bb39d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chaseDistance: 5
 --- !u!1001 &2483888366475939930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33,11 +46,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1671987839327523869, guid: 0c723e48880852446ad21f3fd1d77b00,
-        type: 3}
-      propertyPath: healthPoints
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 5559116324453951121, guid: 0c723e48880852446ad21f3fd1d77b00,
         type: 3}
       propertyPath: m_Name
@@ -97,6 +105,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1671987839327523869, guid: 0c723e48880852446ad21f3fd1d77b00,
+        type: 3}
+      propertyPath: healthPoints
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c723e48880852446ad21f3fd1d77b00, type: 3}
