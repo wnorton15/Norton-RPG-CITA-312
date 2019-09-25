@@ -548,6 +548,11 @@ PrefabInstance:
       propertyPath: m_Speed
       value: 5.3
       objectReference: {fileID: 0}
+    - target: {fileID: 3612306497250176125, guid: 2bb5599bad4b06a44822c0e207adc13d,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 5.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bb5599bad4b06a44822c0e207adc13d, type: 3}
 --- !u!4 &761515413 stripped
@@ -1226,6 +1231,11 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 3612306497250176125, guid: 2bb5599bad4b06a44822c0e207adc13d,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bb5599bad4b06a44822c0e207adc13d, type: 3}
 --- !u!4 &1634033849 stripped
@@ -1451,6 +1461,11 @@ PrefabInstance:
         type: 3}
       propertyPath: healthPoints
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612306497250176125, guid: 2bb5599bad4b06a44822c0e207adc13d,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bb5599bad4b06a44822c0e207adc13d, type: 3}
