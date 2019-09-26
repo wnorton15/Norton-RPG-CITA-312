@@ -836,7 +836,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491082826}
-  m_LocalRotation: {x: 0.01732978, y: -0.664246, z: 0.015406772, w: 0.74715436}
+  m_LocalRotation: {x: 0.15565796, y: 0.7369664, z: -0.18144102, w: 0.6322423}
   m_LocalPosition: {x: 68.8051, y: -11.38853, z: 37.39905}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2016,7 +2016,8 @@ GameObject:
   - component: {fileID: 1673465762}
   - component: {fileID: 1673465764}
   - component: {fileID: 1673465765}
-  m_Layer: 0
+  - component: {fileID: 1673465766}
+  m_Layer: 2
   m_Name: IntroSequence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2066,7 +2067,7 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: b0f9e18e865615748ab62e86c79bf658, type: 2}
-  m_InitialState: 1
+  m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
@@ -2113,6 +2114,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1673465766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673465760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cfd6f3d5648f31409e123117b7f7c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1709827397
 GameObject:
   m_ObjectHideFlags: 0
@@ -2375,7 +2388,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816355233}
-  m_LocalRotation: {x: 0.047256216, y: 0.94481415, z: -0.15760623, w: 0.28329045}
+  m_LocalRotation: {x: 0.047256205, y: 0.94481415, z: -0.1576062, w: 0.28329042}
   m_LocalPosition: {x: 61.221336, y: -8.095943, z: -7.782465}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2571,7 +2584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Path: {fileID: 248050005}
-  m_PathPosition: 1.015038
+  m_PathPosition: 0.03007507
   m_PositionUnits: 2
   m_PathOffset: {x: 0, y: 0, z: 0}
   m_XDamping: 0
