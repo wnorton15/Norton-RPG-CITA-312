@@ -12,6 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcccb90c1f298ca4fbb64c9df51399ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &1954927142
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7954029962264631971}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1001 &2542166318560312370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32,32 +46,32 @@ PrefabInstance:
     - target: {fileID: 3857845347862387399, guid: 0c723e48880852446ad21f3fd1d77b00,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.70977783
+      value: -11.35
       objectReference: {fileID: 0}
     - target: {fileID: 3857845347862387399, guid: 0c723e48880852446ad21f3fd1d77b00,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -5.355
       objectReference: {fileID: 0}
     - target: {fileID: 3857845347862387399, guid: 0c723e48880852446ad21f3fd1d77b00,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.7964592
+      value: 1.67
       objectReference: {fileID: 0}
     - target: {fileID: 3857845347862387399, guid: 0c723e48880852446ad21f3fd1d77b00,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3857845347862387399, guid: 0c723e48880852446ad21f3fd1d77b00,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3857845347862387399, guid: 0c723e48880852446ad21f3fd1d77b00,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3857845347862387399, guid: 0c723e48880852446ad21f3fd1d77b00,
         type: 3}
@@ -83,6 +97,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1690603413, guid: 0c723e48880852446ad21f3fd1d77b00, type: 3}
+      propertyPath: weaponRange
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c723e48880852446ad21f3fd1d77b00, type: 3}
