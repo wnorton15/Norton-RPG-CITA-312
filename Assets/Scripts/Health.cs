@@ -14,7 +14,7 @@ namespace RPG.Core
         {
             return isDead;
         }
-     
+        
         public void TakeDamage(float damage)
         {
             healthPoints = Mathf.Max(healthPoints - damage, 0);
@@ -31,7 +31,6 @@ namespace RPG.Core
             GetComponent<Animator>().SetTrigger("die");
             GetComponent<ActionScheduler>().CancelCurrentAction();
         }
-
 
         public object CaptureState()
         {

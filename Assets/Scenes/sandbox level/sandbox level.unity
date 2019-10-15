@@ -1265,7 +1265,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491082826}
-  m_LocalRotation: {x: 0.15565799, y: 0.7369664, z: -0.18144102, w: 0.6322424}
+  m_LocalRotation: {x: 0.15565798, y: 0.7369664, z: -0.18144101, w: 0.6322424}
   m_LocalPosition: {x: 68.8051, y: -11.38853, z: 37.39905}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1903,10 +1903,10 @@ PrefabInstance:
       propertyPath: maxSpeed
       value: 5.3
       objectReference: {fileID: 0}
-    - target: {fileID: 7016273766640308260, guid: 2bb5599bad4b06a44822c0e207adc13d,
+    - target: {fileID: 1305515184164025092, guid: 2bb5599bad4b06a44822c0e207adc13d,
         type: 3}
       propertyPath: uniqueIdentifier
-      value: 38fa9265-4b0a-420a-9d9c-282ea6f2d4d4
+      value: 6f31a833-68ac-48d5-a89f-8a72c17d6c86
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bb5599bad4b06a44822c0e207adc13d, type: 3}
@@ -2940,15 +2940,15 @@ PrefabInstance:
       propertyPath: maxSpeed
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 7016273766640308260, guid: 2bb5599bad4b06a44822c0e207adc13d,
-        type: 3}
-      propertyPath: uniqueIdentifier
-      value: ea760a92-8bf0-4ee2-b248-adb95159f095
-      objectReference: {fileID: 0}
     - target: {fileID: 5382765431563631545, guid: 2bb5599bad4b06a44822c0e207adc13d,
         type: 3}
       propertyPath: healthPoints
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1305515184164025092, guid: 2bb5599bad4b06a44822c0e207adc13d,
+        type: 3}
+      propertyPath: uniqueIdentifier
+      value: 13591796-cdde-4449-8c25-b64f41cb4db1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bb5599bad4b06a44822c0e207adc13d, type: 3}
@@ -3253,6 +3253,11 @@ PrefabInstance:
     - target: {fileID: 2632710269420061103, guid: 14500625317ee634695ecc58f74e4af8,
         type: 3}
       propertyPath: sceneToLoad
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2632710269420061103, guid: 14500625317ee634695ecc58f74e4af8,
+        type: 3}
+      propertyPath: destination
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2858269879544596513, guid: 14500625317ee634695ecc58f74e4af8,
@@ -3583,15 +3588,15 @@ PrefabInstance:
       propertyPath: maxSpeed
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 7016273766640308260, guid: 2bb5599bad4b06a44822c0e207adc13d,
-        type: 3}
-      propertyPath: uniqueIdentifier
-      value: eec299eb-3542-46d8-99ef-a2daa1087fff
-      objectReference: {fileID: 0}
     - target: {fileID: 5382765431563631545, guid: 2bb5599bad4b06a44822c0e207adc13d,
         type: 3}
       propertyPath: healthPoints
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1305515184164025092, guid: 2bb5599bad4b06a44822c0e207adc13d,
+        type: 3}
+      propertyPath: uniqueIdentifier
+      value: b55cab15-aa98-456d-a385-93a8063a57bc
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bb5599bad4b06a44822c0e207adc13d, type: 3}

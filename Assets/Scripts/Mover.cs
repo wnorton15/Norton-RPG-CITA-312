@@ -7,7 +7,7 @@ using RPG.Saving;
 
 namespace RPG.Movement
 {
-    public class Mover : MonoBehaviour, IAction, ISaveable
+    public class Mover : MonoBehaviour, IAction, ISaveable 
     {
         [SerializeField] Transform target;
         [SerializeField] float maxSpeed = 6f;
