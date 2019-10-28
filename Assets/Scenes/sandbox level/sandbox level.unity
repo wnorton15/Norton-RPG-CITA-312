@@ -1265,7 +1265,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491082826}
-  m_LocalRotation: {x: 0.15565799, y: 0.7369664, z: -0.18144102, w: 0.6322424}
+  m_LocalRotation: {x: 0.15565798, y: 0.7369664, z: -0.18144101, w: 0.6322424}
   m_LocalPosition: {x: 68.8051, y: -11.38853, z: 37.39905}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2446,6 +2446,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 92f411609fca4d74d98af8e1bd1d4732,
     type: 3}
   m_PrefabInstance: {fileID: 1046432464}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1197955475 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5888966849761353152, guid: 4694ee96e12c7a440beec698c7cf7bc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 5873349135169186400}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1269836297
 PrefabInstance:
@@ -3667,7 +3673,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816355233}
-  m_LocalRotation: {x: 0.047256216, y: 0.94481415, z: -0.15760623, w: 0.28329045}
+  m_LocalRotation: {x: 0.047256205, y: 0.94481415, z: -0.1576062, w: 0.28329042}
   m_LocalPosition: {x: 61.221336, y: -8.095943, z: -7.782465}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4721,6 +4727,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4443363403149577342, guid: 4694ee96e12c7a440beec698c7cf7bc0,
+        type: 3}
+      propertyPath: weaponPrefab
+      value: 
+      objectReference: {fileID: 4251721257627429538, guid: 14bbee86f5338fa4ca4dcc534ac29736,
+        type: 3}
+    - target: {fileID: 4443363403149577342, guid: 4694ee96e12c7a440beec698c7cf7bc0,
+        type: 3}
+      propertyPath: handTransform
+      value: 
+      objectReference: {fileID: 1197955475}
     m_RemovedComponents:
     - {fileID: 2228835092995003288, guid: 4694ee96e12c7a440beec698c7cf7bc0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4694ee96e12c7a440beec698c7cf7bc0, type: 3}
