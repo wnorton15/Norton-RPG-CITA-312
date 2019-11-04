@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 995459127096057013}
   m_Layer: 0
-  m_Name: Bow
+  m_Name: Equipped Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23,8 +23,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1410457027912055329}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.19140977, y: -0.6019136, z: -0.7026438, w: 0.3276494}
+  m_LocalPosition: {x: -0.415, y: 0.081, z: -0.852}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1867376948000465578}
