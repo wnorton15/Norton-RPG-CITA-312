@@ -21,6 +21,7 @@ MonoBehaviour:
     - 400
     - 800
   - characterClass: 1
-    health: []
+    health:
+    - 25
   - characterClass: 2
     health: []
